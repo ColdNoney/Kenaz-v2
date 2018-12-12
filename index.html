@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Novinski portal Kenaz</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <a href="#">
+          <img src="./img/arrow1.png" id="nazad">
+        </a>
+        <div id="naslov">
+          <h2>Kenaz</h2>
+        </div>
+        <img src="./img/search.png" id="search">
+        <nav>
+          <ul>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#" id="zadnji-list">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sekcija s kategorijama -->
+    <div class="sekcija">
+      <div class="container">
+        <button class="tablinks" id="newsBorder">NEWS</button>
+        <button class="tablinks" id="businessBorder">BUSINESS</button>
+        <button class="tablinks" id="sportBorder">SPORT</button>
+        <button class="tablinks" id="lifeBorder">LIFE</button>
+        <button class="tablinks" id="techBorder">TECH</button>
+        <button class="tablinks" id="travelBorder">TRAVEL</button>
+      </div>
+    </div>
+
+    <div class="sve">
+
+    <!-- Banner -->
+      <div class="banner banner--top">
+        <h1>banner</h1>
+      </div>
+
+      <!-- Slideshow container -->
+      <div class="slider">
+        <img class="mySlides animate-left" src="./img/pic1.jpg">
+        <img class="mySlides animate-left" src="./img/pic2.jpg">
+        <img class="mySlides animate-left" src="./img/pic3.jpg">
+
+        <!-- Tipke za sljedeću i prošlu sliku -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Tekst slider vijesti -->
+        <div class="naslov-opis">
+          <span class="opis">15. travnja, 2018.</span>
+          <img src="./img/comment.png" alt="Komentar">
+          <span>10 komentara</span>
+          <div class="title title--big"></div>
+          <button type="button">Pročitaj više</button>
+        </div>
+      </div>
+
+      <!-- Lijevi odjeljak gdje su sve kategorije -->
+      <div class="containerS">
+        <div class="containerL">
+
+        <!-- Kategorija news -->
+        <div class="kategorijaNews">
+          <div class="naslovKategorije">
+            <h1>News</h1><a href="#">See all</a>
+          </div>
+
+          <div class="sadrzajKategorije">
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kategorija sport -->
+        <div class="kategorijaSport">
+          <div class="naslovKategorije">
+            <h1>Sport</h1><a href="#">See all</a>
+          </div>
+
+          <div class="sadrzajKategorije">
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+                <span id="komentari">10</span>
+                <img src="./img/comment.png" alt="Komentar" id="oblacic">
+              </div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner2">
+          <h1>banner</h1>
+        </div>
+
+        <!-- Kategorija business -->
+        <div class="kategorijaBusiness">
+          <div class="naslovKategorije">
+            <h1>Business</h1><a href="#">See all</a>
+          </div>
+
+          <div class="sadrzajKategorije2">
+            <div class="vijest">
+              <div class="slikaVijesti2">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest2">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti2">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest2">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti2">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest2">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti2">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest2">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner2">
+          <h1>banner</h1>
+        </div>
+
+        <!-- Kategorija tech -->
+        <div class="kategorijaTech">
+
+          <div class="naslovKategorije">
+            <h1>Tech</h1>
+            <a href="#">
+              <img src="./img/arrowYright.png">
+            </a>
+            <a href="#">
+              <img src="./img/arrowYleft.png">
+            </a>
+          </div>
+
+          <div class="sadrzajKategorije2">
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+              </div>
+              <div class="title"></div>
+            </div>
+
+            <div class="vijest">
+              <div class="slikaVijesti">
+                <div class="newsPic"></div>
+              </div>
+              <div class="infoVijest">
+                <span class="datum">15. travnja, 2018.</span>
+              </div>
+              <div class="title"></div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+
+      <!-- Desni odjeljak gdje su ostali izbornici -->
+        <div class="containerD">
+          <div class="ukratkoVijesti" id="popVijest">
+
+            <div class="sortiranjeVijesti"
+              <ul>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Top rated</a></li>
+                <li><a href="#">Comments</a></li>
+              </ul>
+            </div>
+
+            <div class="vijest vijest--right">
+              <div class="infoVijest3">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+              <div class="slikaVijesti3">
+                <div class="newsPic"></div>
+              </div>
+            </div>
+
+            <div class="vijest vijest--right">
+              <div class="infoVijest3">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+              <div class="slikaVijesti3">
+                <div class="newsPic"></div>
+              </div>
+            </div>
+
+            <div class="vijest vijest--right">
+              <div class="infoVijest3">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+              <div class="slikaVijesti3">
+                <div class="newsPic"></div>
+              </div>
+            </div>
+
+            <div class="vijest vijest--right">
+              <div class="infoVijest3">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+              <div class="slikaVijesti3">
+                <div class="newsPic"></div>
+              </div>
+            </div>
+
+            <div class="vijest vijest--right">
+              <div class="infoVijest3">
+                <span class="datum">15. travnja, 2018.</span>
+                <div class="title"></div>
+              </div>
+              <div class="slikaVijesti3">
+                <div class="newsPic"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="socialMedia">
+            <h2>Social</h2>
+
+            <div class="facebook">
+              <div class="fejsIkona">
+                <img src="./img/face.png">
+              </div>
+              <div class="imeSocial">
+                <h2>Like</h2>
+              </div>
+              <div class="fans">
+                <h3>25041 Fans</h3>
+              </div>
+            </div>
+
+            <div class="facebook">
+              <div class="fejsIkona">
+                <img src="./img/twitter.png">
+              </div>
+              <div class="imeSocial">
+                <h2>Follow</h2>
+              </div>
+              <div class="fans">
+                <h3>25041 Followers</h3>
+              </div>
+            </div>
+
+            <div class="facebook">
+              <div class="fejsIkona">
+                <img src="./img/youtube.png">
+              </div>
+              <div class="imeSocial">
+                <h2>Subscribe</h2>
+              </div>
+              <div class="fans">
+                <h3>25041 Subscribers</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="banner3">
+        <h1>banner</h1>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="line"></div>
+      <div class="sadrzajKategorije sve sve--footer">
+        <div class="footerSum">
+          <div class="kenaz">
+            <a href="#"><img src="./img/arrow-blue.png"></a>
+            <h1>Kenaz</h1>
+          </div>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <div class="socials">
+             <img src="./img/socials.png">
+           </div>
+
+           <div class="featured">
+             <h2>Featured</h2>
+             <div class="featuredNews">
+
+             </div>
+           </div>
+
+        </div>
+
+        <div class="newsletter">
+          <h2>Newsletter</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <form>
+              <input type="text" name="email" placeholder="Your email">
+              <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="newsletter">
+          <h2>Tags Widget</h2>
+          <div class="tags">
+            <a href="#">random</a>
+            <a href="#">this</a>
+            <a href="#">that</a>
+            <a href="#">cat</a>
+            <a href="#">frontend</a>
+            <a href="#">pc</a>
+            <a href="#">whatever</a>
+            <a href="#">alcatraz</a>
+            <a href="#">javascript</a>
+            <a href="#">html</a>
+            <a href="#">css</a>
+            <a href="#">background</a>
+            <a href="#">spiderman</a>
+            <a href="#">gg</a>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="paragraph">
+
+      <div class="copyright sve">
+        <p class="paragraph">&copy; 2013 - Kenaz template - Proudly made at Plava tvornica Croatia<p>
+      </div>
+    </footer>
+
+    <!-- Učitavanje javascripta -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
